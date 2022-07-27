@@ -15,7 +15,7 @@ module dff (Q, D, Clock);
  end
 endmodule
 
-module DFF_LFSR() ; 
+module iiitb_lfsr() ; 
  input D;
  input clk;
  input reset;
