@@ -1,6 +1,6 @@
 module lfsr_tb(clk1);
 output reg clk1;
-lfsr dut (clk1);
+iiitb_lfsr dut (clk1);
 initial
 clk1 = 1'b0;
     always 
