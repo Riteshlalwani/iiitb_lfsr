@@ -1,4 +1,4 @@
-module lfsr_tb(clk1);
+module iiitb_lfsr_tb(clk1);
 output reg clk1;
 iiitb_lfsr dut (clk1);
 initial
