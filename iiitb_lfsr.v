@@ -26,7 +26,7 @@ end
 endmodule
 
 
-module lfsr(q, clk, rst, seed, load);
+module iiitb_lfsr(q, clk, rst, seed, load);
 output q;
 input [3:0] seed;
 input load;
