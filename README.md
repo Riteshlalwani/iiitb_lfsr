@@ -1,6 +1,6 @@
-iiitb_gc - gray counter
-
-The focus of this project is to implement an 8-bit gray code counter in skywater 130nm and determine its functional, pre-layout and post layout characteristics (namely power, performance and area).
+# iiit_lfsr- Linear feedback shift register
+## Description
+The Aim of this exercise is to design a linear feedback shift register to produce a random number sequence. We would be using 130nm technology node by Skywater. We would also understand the functionality, pre-layout and post-layout characterstics.
 
 Note: Circuit requires further optimization to improve performance. Design yet to be modified.
 Introduction
