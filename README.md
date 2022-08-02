@@ -12,5 +12,16 @@ Linear feedback shift register has 4 d-flipflops and a Ex-or Gate. We would also
 ## Application of LFSR(Linear feedback shift register)
 LFSR counter has various applications
 - *Uses in cryptograpgy*
+- *Uses in circuit testing*
+- *Uses in puzzles and games*
+## LFSR - Verilog Block diagram
+
+| PORT NAME | PORT TYPE | DESCRIPTION |
+|-----------|-----------|-------------|
+| clk       | input     | Clock Input |
+| enable | input | Enables the counter to count on positive clk edge |
+| reset | input | Resets the counter to 0 |
+| gray_count[7:0] | output | 8-bit gray code output |
+
 The gray code counter has various applications including analog to digital converters, error detection and correction in memory and digital communication, genetic algorithms, DNA computing, bio-informatics, optical information processing, quantum computations and nanotechnology.
 Gray Code Counter - Verilog Implementation
