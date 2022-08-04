@@ -14,6 +14,54 @@ LFSR counter has various applications
 - *Uses in cryptograpgy*
 - *Uses in circuit testing*
 - *Uses in puzzles and games*
+- 
 ## LFSR - Verilog Block diagram
+The Block Diagram of LFSR shown Below :-
+
+## Functional Simulation
+### Softwares used
+### - **iverilog**
+Icarus Verilog is a Verilog simulation and synthesis tool. It operates as a compiler, compiling source code written in Verilog (IEEE-1364) into some target format. [^3]
+
+### - **gtkwave**
+GTKWave is a fully featured GTK+ based wave viewer for Unix, Win32, and Mac OSX which reads LXT, LXT2, VZT, FST, and GHW files as well as standard Verilog VCD/EVCD files and allows their viewing. [^4]
+
+### 1) Installing necessary softwares:
+  ```
+  $ sudo apt-get install git 
+  
+  $ sudo apt-get install iverilog 
+  
+  $ sudo apt-get install gtkwave 
+  ```
+  ### 2) Executing the Project:
+  ```
+  $ git clone 
+  
+  $ cd iiitb_lfsr
+  
+  $ iverilog iiitb_lfsr.v iiitb_lfsr_tb.v -o iiitb_lfsr
+  
+  $ ./iiitb_lfsr
+  
+  $ gtkwave iiitb_lfsr.vcd
+  ```
+  ## Contributors
+
+- **Ritesh Lalwani**
+- **Kunal Ghosh**
+- **Tejas B N**
+
+## Acknowledgments
 
 
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd.
+- Madhav Rao, Associate Professor, IIIT Bangalore
+- V N Muralidhara,Mtech Coordinator, Associate Professor, IIIT Bangalore
+  
+  
+```
+## Contact Information
+
+- Ritesh Lalwani, Mtech ECE student, International Institute of Information Technology, Bangalore  ritesh7328@gmail.com
+- Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
