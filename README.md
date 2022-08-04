@@ -19,10 +19,15 @@ LFSR counter has various applications
 The Block Diagram of LFSR shown Below :-
 [^2]<br>
  <p align="center">
-  <img width="350" height="200" src="/images/blockdiagram.jpg">
+  <img width="350" height="200" src="/images/blockdiagram.PNG">
 </p><br>
 
 ## Functional Simulation
+## Waveform :- 
+[^3]<br>
+ <p align="center">
+  <img width="350" height="200" src="/images/waveform.jpg">
+</p><br>
 ### Softwares used
 ### - **iverilog**
 Icarus Verilog is a Verilog simulation and synthesis tool. It operates as a compiler, compiling source code written in Verilog (IEEE-1364) into some target format. [^3]
