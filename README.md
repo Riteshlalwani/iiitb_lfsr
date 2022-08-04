@@ -17,6 +17,10 @@ LFSR counter has various applications
 
 ## LFSR - Verilog Block diagram
 The Block Diagram of LFSR shown Below :-
+[^2]<br>
+ <p align="center">
+  <img width="350" height="200" src="/images/blockdiagram.PNG">
+</p><br>
 
 ## Functional Simulation
 ### Softwares used
