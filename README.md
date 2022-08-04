@@ -14,7 +14,7 @@ LFSR counter has various applications
 - *Uses in cryptograpgy*
 - *Uses in circuit testing*
 - *Uses in puzzles and games*
-- 
+
 ## LFSR - Verilog Block diagram
 The Block Diagram of LFSR shown Below :-
 
