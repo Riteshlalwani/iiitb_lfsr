@@ -19,7 +19,7 @@ LFSR counter has various applications
 The Block Diagram of LFSR shown Below :-
 [^2]<br>
  <p align="center">
-  <img width="350" height="200" src="/images/blockdiagram.PNG">
+  <img width="350" height="200" src="/images/blockdiagram.jpg">
 </p><br>
 
 ## Functional Simulation
