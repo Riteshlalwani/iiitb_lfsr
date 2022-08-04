@@ -19,14 +19,14 @@ LFSR counter has various applications
 The Block Diagram of LFSR shown Below :-
 [^2]<br>
  <p align="center">
-  <img width="350" height="200" src="/images/blockdiagram.jpg">
+  <img width="650" height="320" src="/images/blockdiagram.jpg">
 </p><br>
 
 ## Functional Simulation
 ## Waveform :- 
 [^3]<br>
  <p align="center">
-  <img width="650" height="200" src="/images/waveform.jpg">
+  <img width="800" height="300" src="/images/waveform.jpg">
 </p><br>
 
 ### Softwares used
