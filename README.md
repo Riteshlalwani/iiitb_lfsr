@@ -89,7 +89,7 @@ yosys> show
 ### Synthesized Circuit
 ^5]<br>
  <p align="center">
-  <img width="1000" height="200" src="/images/synthesized_circuit.jpg.jpg">
+  <img width="1000" height="200" src="/images/synthesized_circuit.jpg">
 </p><br>
 
 
