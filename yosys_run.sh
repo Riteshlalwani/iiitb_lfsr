@@ -10,3 +10,4 @@ clean
 flatten
 write_verilog -noattr iiitb_lfsr_synth.v
 stat
+show
