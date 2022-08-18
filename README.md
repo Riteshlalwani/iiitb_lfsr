@@ -137,3 +137,11 @@ $ gtkwave iiitb_lfsr_tb.vcd
 
 - Ritesh Lalwani, Mtech ECE student, International Institute of Information Technology, Bangalore  ritesh7328@gmail.com
 - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
+
+# *References*
+[^1]:Texas instruments website (https://www.ti.com/lit/an/scta036a/scta036a.pdf)
+[^2]: Icarus Verilog - [iverilog](http://iverilog.icarus.com/)
+
+[^3]: GTK Wave [documentation](http://gtkwave.sourceforge.net/gtkwave.pdf)
+
+[^4]: [Yosys](https://yosyshq.net/yosys/) synthesis tool
