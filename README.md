@@ -133,7 +133,7 @@ $ gtkwave iiitb_lfsr_tb.vcd
   
   
 ```
-## Contact Information
+# Contact Information
 
 - Ritesh Lalwani, Mtech ECE student, International Institute of Information Technology, Bangalore  ritesh7328@gmail.com
 - Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
