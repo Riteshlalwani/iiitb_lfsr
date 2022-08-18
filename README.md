@@ -56,6 +56,60 @@ GTKWave is a fully featured GTK+ based wave viewer for Unix, Win32, and Mac OSX 
   
   $ gtkwave iiitb_lfsr.vcd
   ```
+  ## Gate Level Simulation
+
+GLS is generating the simulation output by running test bench with netlist file generated from synthesis as design under test. Netlist is logically same as RTL code, therefore, same test bench can be used for it.
+
+1. Go to the directory where verilog code is present and open the terminal.
+
+2. Invoke yosys.
+
+Give the following commands for synthesis:
+
+```
+// reads the library file from sky130//
+yosys> read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+// reads the verilog files//
+yosys> read_verilog iiitb_lfsr.v
+
+//synthesize the top module of verilog file//
+yosys> synth -top iiitb_lfsr
+
+//Generates netlist//
+yosys> abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+//Simplified netlist//
+yosys> flatten
+
+//Displays the Netlist circuit//
+yosys> show
+
+```
+### Synthesized Circuit
+
+
+
+
+
+```
+//Writing Netlist//
+yosys> write_verilog -noattr iiitb_lfsr_net.v
+```
+
+3. Invoke GLS
+
+```
+$ iverilog ../verilog_model/primitives.v ../verilog_model/sky130_fd_sc_hd.v iiitb_lfsr_net.v iiitb_lfsr_tb.v
+$ ./a.out
+$ gtkwave iiitb_lfsr_tb.vcd
+```
+
+4. Gate Level Simulation
+
+
+
+  
   ## Contributors
 
 - **Ritesh Lalwani**
