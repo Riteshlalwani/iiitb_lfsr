@@ -106,7 +106,10 @@ $ gtkwave iiitb_lfsr_tb.vcd
 ```
 
 4. Gate Level Simulation
-
+[^5]<br>
+ <p align="center">
+  <img width="1000" height="200" src="/images/GLS_waveform.jpg">
+</p><br>
 
 
   
