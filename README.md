@@ -7,7 +7,7 @@ Note: Circuit requires further optimization to improve performance. Design yet t
 
 ## Introduction
 
-Linear feedback shift register has 4 d-flipflops and a Ex-or Gate. We would also use multiplexers to initialize the sequence. This design would generate a sequence of numbers(bits). Although the sequence generated can be predicted by observing the previous bits as it would be repeating a cycle. However we can modify the circuit and its feedback paths to make it look more random and decrease the predictibilty.
+Linear feedback shift register has 4 d-flipflops and a Ex-or Gate. We would also use multiplexers to initialize the sequence. This design would generate a sequence of numbers(bits). Although the sequence generated can be predicted by observing the previous bits as it would be repeating a cycle. However we can modify the circuit and its feedback paths to make it look more random and decrease the predictibilty. [^1]
 
 ## Application of LFSR(Linear feedback shift register)
 LFSR counter has various applications
@@ -17,7 +17,7 @@ LFSR counter has various applications
 
 ## LFSR - Verilog Block diagram
 The Block Diagram of LFSR shown Below :-
-[^2]<br>
+<br>
  <p align="center">
   <img width="650" height="320" src="/images/blockdiagram.jpg">
 </p><br>
@@ -31,10 +31,10 @@ The Block Diagram of LFSR shown Below :-
 
 ### Softwares used
 ### - **iverilog**
-Icarus Verilog is a Verilog simulation and synthesis tool. It operates as a compiler, compiling source code written in Verilog (IEEE-1364) into some target format. [^3]
+Icarus Verilog is a Verilog simulation and synthesis tool. It operates as a compiler, compiling source code written in Verilog (IEEE-1364) into some target format. [^2]
 
 ### - **gtkwave**
-GTKWave is a fully featured GTK+ based wave viewer for Unix, Win32, and Mac OSX which reads LXT, LXT2, VZT, FST, and GHW files as well as standard Verilog VCD/EVCD files and allows their viewing. [^4]
+GTKWave is a fully featured GTK+ based wave viewer for Unix, Win32, and Mac OSX which reads LXT, LXT2, VZT, FST, and GHW files as well as standard Verilog VCD/EVCD files and allows their viewing. [^3]
 
 ### 1) Installing necessary softwares:
   ```
@@ -88,7 +88,7 @@ yosys> show
 
 ```
 ### Synthesized Circuit
-^5]<br>
+<br>
  <p align="center">
   <img width="1000" height="500" src="/images/synthesized_circuit.jpg">
 </p><br>
@@ -111,7 +111,7 @@ $ gtkwave iiitb_lfsr_tb.vcd
 ```
 
 4. Gate Level Simulation
-[^5]<br>
+<br>
  <p align="center">
   <img width="1000" height="200" src="/images/GLS_waveform.jpg">
 </p><br>
@@ -141,6 +141,7 @@ $ gtkwave iiitb_lfsr_tb.vcd
 ```
 # *References*
 [^1]:Texas instruments website [TI website](https://www.ti.com/lit/an/scta036a/scta036a.pdf)
+
 [^2]: Icarus Verilog - [iverilog](http://iverilog.icarus.com/)
 
 [^3]: GTK Wave [documentation](http://gtkwave.sourceforge.net/gtkwave.pdf)
