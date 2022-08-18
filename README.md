@@ -88,7 +88,7 @@ yosys> show
 
 ```
 ### Synthesized Circuit
-<br>
+[^4]<br>
  <p align="center">
   <img width="1000" height="500" src="/images/synthesized_circuit.jpg">
 </p><br>
