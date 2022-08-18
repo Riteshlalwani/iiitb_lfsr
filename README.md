@@ -26,7 +26,7 @@ The Block Diagram of LFSR shown Below :-
 ## Waveform :- 
 [^3]<br>
  <p align="center">
-  <img width="800" height="300" src="/images/waveform.jpg">
+  <img width="800" height="300" src="/images/rtl_waveform.jpg">
 </p><br>
 
 ### Softwares used
