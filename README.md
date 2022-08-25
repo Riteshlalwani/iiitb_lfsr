@@ -210,7 +210,10 @@ $   magic -T /home/parallels/Desktop/OpenLane/pdks/sky130A/libs.tech/magic/sky13
 ```
 layout will be open in new window
 #### layout
-
+<br>
+ <p align="center">
+  <img width="1000" height="500" src="/images/layout.png">
+</p><br>
 
 
 
