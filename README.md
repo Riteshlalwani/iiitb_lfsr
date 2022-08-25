@@ -175,15 +175,15 @@ Open terminal in home directory
 ```
 $   cd OpenLane/
 $   cd designs/
-$   mkdir iiitb_pwm_gen
-$   cd iiitb_pwm_gen/
-$   wget https://raw.githubusercontent.com/sanampudig/iiitb_pwm_gen/main/config.json
+$   mkdir iiitb_lfsr
+$   cd iiitb_lfsr/
+$   wget https://raw.githubusercontent.com/riteshlalwani/iiitb_lfsr/main/config.json
 $   mkdir src
 $   cd src/
-$   wget https://raw.githubusercontent.com/sanampudig/iiitb_pwm_gen/main/iiitb_pwm_gen.v
+$   wget https://raw.githubusercontent.com/riteshlalwani/iiitb_lfsr/main/.v
 $   cd ../../../
 $   sudo make mount
-$   ./flow.tcl -design iiitb_pwm_gen
+$   ./flow.tcl -design iiitb_lfsr
 ```
 
 
@@ -191,7 +191,7 @@ To see the layout we use a tool called magic which we installed earlier.
 
 open terminal in home directory
 ```
-$   cd OpenLane/designs/iiitb_pwm_gen/run
+$   cd OpenLane/designs/iiitb_lfsr/run
 $   ls
 ```
 select most run directoy from list 
