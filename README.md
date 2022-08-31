@@ -209,17 +209,17 @@ update the highlited text with appropriate path
 $   magic -T /home/parallels/Desktop/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../../tmp/merged.max.lef def read iiitb_lfsr.def &
 ```
 layout will be open in new window
-#### layout
-<br>
- <p align="center">
-  <img width="1000" height="500" src="/images/layout.png">
-</p><br>
+#### Floorplan
 
 
 
 
 
+![placement](https://user-images.githubusercontent.com/110079763/187632183-f1a580c5-eae5-4295-9b56-ff983efd4ff5.png)
 
+### vsdinv inside the LFSR Floorplan
+
+![vsdinv in placement](https://user-images.githubusercontent.com/110079763/187632938-305b182d-140b-4e9d-9dfa-65122378120c.png)
 
 ## Future work:
 working on **GLS for post-layout netlist**.
