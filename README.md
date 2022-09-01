@@ -217,6 +217,8 @@ There are four inverters being used, all of them are replaced by our designed vs
 
 ![Screenshot from 2022-08-31 12-18-57](https://user-images.githubusercontent.com/110079763/187886907-7740ef4e-e8e3-4bc0-a510-a7604e851c14.png)
 
+
+
 ## Floorplan
 
 
@@ -227,7 +229,18 @@ There are four inverters being used, all of them are replaced by our designed vs
 ## Process for getting to the floorplan
 
 After merging the vsdinv with our design we have to get started with the commands to run synthesis and floorplan in our design. Following commands will be given:-
+#Synthesis
+For the synthesis we would run the command run_synthesis 
+For floorplan we would first use
+init_floorplan
+and then
+run_floorplan
+For timing analysis and slack contraints we would use cts command:-
+run_cts
 
+```
+
+![Screenshot from 2022-08-30 19-01-36](https://user-images.githubusercontent.com/110079763/187889804-6ba1a741-238f-4185-b40b-1fb7cb6fa347.png)
 
 ### vsdinv inside the LFSR Floorplan
 
