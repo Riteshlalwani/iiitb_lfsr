@@ -205,17 +205,29 @@ run following instruction
 $   cd results/final/def
 ```
 update the highlited text with appropriate path 
-```
+
 $   magic -T /home/parallels/Desktop/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../../tmp/merged.max.lef def read iiitb_lfsr.def &
 ```
 layout will be open in new window
-#### Floorplan
+```
+## Stats after placeing the vsdinv in our design
+We can observe here the number of cells being used and also the different skywater blocks like d-flipflops and all other wires being used.
+Here the area of our design is also mentioned, which in our case comes out to be 200.192 um^2.
+There are four inverters being used, all of them are replaced by our designed vsdinv.
+
+![Screenshot from 2022-08-31 12-18-57](https://user-images.githubusercontent.com/110079763/187886907-7740ef4e-e8e3-4bc0-a510-a7604e851c14.png)
+
+## Floorplan
 
 
 
 
 
 ![placement](https://user-images.githubusercontent.com/110079763/187632183-f1a580c5-eae5-4295-9b56-ff983efd4ff5.png)
+## Process for getting to the floorplan
+
+After merging the vsdinv with our design we have to get started with the commands to run synthesis and floorplan in our design. Following commands will be given:-
+
 
 ### vsdinv inside the LFSR Floorplan
 
