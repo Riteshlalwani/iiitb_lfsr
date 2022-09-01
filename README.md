@@ -246,7 +246,7 @@ run_cts
 ![vsdinv in placement](https://user-images.githubusercontent.com/110079763/187632938-305b182d-140b-4e9d-9dfa-65122378120c.png)
 
 ## Future work:
-working on **GLS for post-layout netlist**.
+working on **Tapeout and finding bugs in design , if any **.
   
   ## Contributors
 
