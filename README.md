@@ -207,10 +207,10 @@ $   cd results/final/def
 update the highlited text with appropriate path 
 
 $   magic -T /home/parallels/Desktop/OpenLane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../../tmp/merged.max.lef def read iiitb_lfsr.def &
-```
+````
 layout will be open in new window
-
-## Stats after placeing the vsdinv in our design
+````
+### Stats after placeing the vsdinv in our design
 We can observe here the number of cells being used and also the different skywater blocks like d-flipflops and all other wires being used.
 Here the area of our design is also mentioned, which in our case comes out to be 200.192 um^2.
 There are four inverters being used, all of them are replaced by our designed vsdinv.
