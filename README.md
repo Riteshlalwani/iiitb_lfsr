@@ -252,28 +252,26 @@ run_cts
 
 
 
-Gate Count = 18
-
 ![cell numbers](https://user-images.githubusercontent.com/110079763/192720441-3b7a5fd0-14ed-4a35-911c-b29bd6191df4.png)
 
+Gate Count = 18
 
 
 ### 2. Design Area
 
-Area = 6320.172
-
 
 ![area](https://user-images.githubusercontent.com/110079763/192720968-8aaf4c7c-3f6c-4ac3-89f5-339db498720c.png)
+
+Area = 6320.172 µm2
 
 
 ### 3. Performance
 
 
-Performance = 1/(clock period - slack) = 1/(65.73 - 52.57) = 75.98 MHz
-
 
 ![performance](https://user-images.githubusercontent.com/110079763/192721049-7804ba95-d8bf-48cb-ace5-137f2e411949.png)
 
+Performance = 1/(clock period - slack) = 1/(65.73 - 52.57) = 75.98 MHz
 
 
 
