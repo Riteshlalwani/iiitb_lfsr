@@ -245,6 +245,64 @@ run_cts
 
 ![vsdinv in placement](https://user-images.githubusercontent.com/110079763/187632938-305b182d-140b-4e9d-9dfa-65122378120c.png)
 
+## Post-Layout Results
+
+
+### 1. Post-synthesis gate Count
+
+
+
+Gate Count = 18
+
+![cell numbers](https://user-images.githubusercontent.com/110079763/192720441-3b7a5fd0-14ed-4a35-911c-b29bd6191df4.png)
+
+
+
+### 2. Design Area
+
+Area = 6320.172
+
+
+![area](https://user-images.githubusercontent.com/110079763/192720968-8aaf4c7c-3f6c-4ac3-89f5-339db498720c.png)
+
+
+### 3. Performance
+
+
+Performance = 1/(clock period - slack) = 1/(65.73 - 52.57) = 75.98 MHz
+
+
+![performance](https://user-images.githubusercontent.com/110079763/192721049-7804ba95-d8bf-48cb-ace5-137f2e411949.png)
+
+
+
+
+### 4. Flip-Flop to standard cell ratio
+
+![flop ratio](https://user-images.githubusercontent.com/110079763/192721469-a980ca72-591f-4ea1-b8f2-c5f4550a4a08.png)
+
+
+
+Flop ratio = Number of D Flip flops / Total Number of cells
+
+Flop Ratio = 4/18 = 0.22
+
+
+### 5. Power
+
+![power](https://user-images.githubusercontent.com/110079763/192721488-b62943c0-f6bf-4775-9c91-2f3e19d31b19.png)
+
+
+
+Internal Power = 1.09e-05 W
+
+Switching Power = 2.47e-06 W
+
+Leakage Power = 2.86e-10 W
+
+Total Power = 1.34e-05  W
+
+
 ## Future work:
 working on **Tapeout and finding bugs in design , if any **.
   
